@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="io.swagger.annotations.ApiParam"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.ParameterBuilder"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="springfox.documentation.service.Parameter"/>
+<fullyQualifiedTypeName name="springfox.documentation.schema.ModelRef"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="springfox.documentation.spring.web.plugins.Docket"/>
+<fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.RequestHandlerSelectors"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="springfox.documentation.service.ApiKey"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.PathSelectors"/>
+<fullyQualifiedTypeName name="springfox.documentation.service.AuthorizationScope"/>
+<fullyQualifiedTypeName name="springfox.documentation.service.SecurityReference"/>
+<fullyQualifiedTypeName name="io.swagger.annotations.Authorization"/>
+<fullyQualifiedTypeName name="io.swagger.annotations.AuthorizationScope"/>
+<fullyQualifiedTypeName name="io.swagger.annotations.ApiKeyAuthDefinition"/>
+<fullyQualifiedTypeName name="com.google.common.base.Predicates"/>
+</qualifiedTypeNameHistroy>

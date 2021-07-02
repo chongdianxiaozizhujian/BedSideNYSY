@@ -1,0 +1,120 @@
+2019-11-18 16:26:51,694 1942498 [      Worker-31] WARN  menders.models.ModelRepository  - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:220)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:199)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:165)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+2019-11-19 08:41:28,349 7923   [      Worker-14] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 08:41:28,509 8083   [      Worker-14] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:04:09,879 1369453 [      Worker-32] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:04:09,917 1369491 [      Worker-32] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:04:20,117 1379691 [      Worker-33] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:04:20,122 1379696 [      Worker-33] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:05:25,496 1445070 [      Worker-29] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:05:25,502 1445076 [      Worker-29] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:05:37,911 1457485 [      Worker-29] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:05:37,915 1457489 [      Worker-29] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:05:56,040 1475614 [      Worker-31] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:05:56,045 1475619 [      Worker-31] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:06:00,825 1480399 [      Worker-29] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:06:00,829 1480403 [      Worker-29] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:21:19,463 2399037 [      Worker-36] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:21:19,468 2399042 [      Worker-36] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:22:45,559 2485133 [      Worker-43] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:22:45,563 2485137 [      Worker-43] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:23:47,060 2546634 [      Worker-41] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:23:47,066 2546640 [      Worker-41] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:24:43,157 2602731 [      Worker-36] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:24:43,161 2602735 [      Worker-36] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:24:50,336 2609910 [      Worker-43] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:24:50,341 2609915 [      Worker-43] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:00,266 2619840 [      Worker-39] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:00,278 2619852 [      Worker-39] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:04,812 2624386 [      Worker-36] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:04,817 2624391 [      Worker-36] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:14,229 2633803 [      Worker-44] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:14,239 2633813 [      Worker-44] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:34,974 2654548 [      Worker-39] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:34,979 2654553 [      Worker-39] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:37,187 2656761 [      Worker-40] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:25:37,192 2656766 [      Worker-40] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:36:17,682 3297256 [      Worker-47] WARN  menders.models.ModelRepository  - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:220)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:199)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:165)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+2019-11-19 09:36:24,403 3303977 [      Worker-47] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:36:24,408 3303982 [      Worker-47] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:36:45,649 3325223 [      Worker-42] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:36:45,653 3325227 [      Worker-42] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:44:22,011 3781585 [      Worker-54] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:44:22,015 3781589 [      Worker-54] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:44:39,982 3799556 [      Worker-57] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:44:39,986 3799560 [      Worker-57] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:59:16,031 4675605 [      Worker-63] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 09:59:16,035 4675609 [      Worker-63] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:02:32,446 4872020 [      Worker-71] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:02:32,463 4872037 [      Worker-71] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:03:48,422 4947996 [      Worker-63] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:03:48,435 4948009 [      Worker-63] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:04:48,548 5008122 [      Worker-63] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:04:48,557 5008131 [      Worker-63] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:05:35,220 5054794 [      Worker-62] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:05:35,224 5054798 [      Worker-62] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:12:10,066 5449640 [      Worker-75] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:12:10,070 5449644 [      Worker-75] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:27:39,965 6379539 [      Worker-91] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:27:39,969 6379543 [      Worker-91] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:27:56,720 6396294 [      Worker-71] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:27:56,724 6396298 [      Worker-71] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:28:10,090 6409664 [      Worker-89] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:28:10,094 6409668 [      Worker-89] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:49:41,152 7700726 [     Worker-109] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:49:41,156 7700730 [     Worker-109] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:52:23,347 7862921 [     Worker-109] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:52:23,351 7862925 [     Worker-109] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:58:23,131 8222705 [     Worker-117] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 10:58:23,137 8222711 [     Worker-117] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:06:53,594 8733168 [     Worker-117] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:06:53,598 8733172 [     Worker-117] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:07:18,197 8757771 [     Worker-114] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:07:18,201 8757775 [     Worker-114] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:09:31,899 8891473 [     Worker-128] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:09:31,903 8891477 [     Worker-128] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:25:19,582 9839156 [     Worker-134] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:25:19,586 9839160 [     Worker-134] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:27:46,274 9985848 [     Worker-139] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:27:46,278 9985852 [     Worker-139] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:30:42,135 10161709 [     Worker-135] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:30:42,140 10161714 [     Worker-135] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:31:10,938 10190512 [     Worker-140] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-19 11:31:10,947 10190521 [     Worker-140] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!

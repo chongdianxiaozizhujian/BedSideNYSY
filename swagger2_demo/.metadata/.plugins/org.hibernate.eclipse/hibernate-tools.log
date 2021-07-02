@@ -1,0 +1,65 @@
+2019-11-18 14:34:09,477 0      [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:34:09,477 0      [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:34:10,637 1160   [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:34:12,778 3301   [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:34:13,718 4241   [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:11,282 61805  [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:12,167 62690  [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:13,439 63962  [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:14,259 64782  [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:14,259 64782  [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:15,427 65950  [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:16,549 67072  [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:17,405 67928  [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:18,402 68925  [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:19,542 70065  [       Worker-0] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:45,702 96225  [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:46,795 97318  [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:47,725 98248  [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:48,657 99180  [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:49,711 100234 [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:35:50,864 101387 [      Worker-17] WARN  faultRepositoryEventDispatcher  - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-11-18 14:36:43,601 154124 [      Worker-17] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:36:44,524 155047 [      Worker-17] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:36:48,550 159073 [      Worker-18] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:36:48,564 159087 [      Worker-18] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:38:35,895 266418 [       Worker-6] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:38:35,913 266436 [       Worker-6] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:39:17,143 307666 [      Worker-10] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:39:17,149 307672 [      Worker-10] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:41:29,117 439640 [      Worker-18] WARN  menders.models.ModelRepository  - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:220)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:199)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:165)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421)
+	... 8 more
+2019-11-18 14:44:26,783 617306 [      Worker-13] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:44:26,796 617319 [      Worker-13] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:45:33,364 683887 [       Worker-2] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:45:33,369 683892 [       Worker-2] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:51:12,276 1022799 [      Worker-12] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:51:12,286 1022809 [      Worker-12] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:51:21,826 1032349 [      Worker-14] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:51:21,842 1032365 [      Worker-14] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:52:16,681 1087204 [       Worker-8] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 14:52:16,688 1087211 [       Worker-8] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 15:25:33,630 33432  [       Worker-3] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 15:25:33,778 33580  [       Worker-3] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 15:26:00,312 60114  [       Worker-1] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-18 15:26:00,337 60139  [       Worker-1] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-22 15:40:27,808 0      [       Worker-9] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-22 15:40:28,002 194    [       Worker-9] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!

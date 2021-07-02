@@ -1,0 +1,8 @@
+127.0.0.1 - - [18/Nov/2019:15:21:34 +0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [18/Nov/2019:15:21:49 +0800] "GET /swagger1demo/demo/index HTTP/1.1" 200 4
+0:0:0:0:0:0:0:1 - - [18/Nov/2019:15:21:49 +0800] "GET /swagger1demo/demo/index HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [18/Nov/2019:15:21:54 +0800] "GET /swagger1demo/demo/index2 HTTP/1.1" 400 1103
+0:0:0:0:0:0:0:1 - - [18/Nov/2019:15:22:25 +0800] "GET /swagger1demo/demo/index2?url=dgagd HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [18/Nov/2019:15:22:40 +0800] "GET /swagger1demo/api-docs HTTP/1.1" 200 390
+0:0:0:0:0:0:0:1 - - [18/Nov/2019:15:22:40 +0800] "GET /swagger1demo/api-docs/XmPlatform/demo-controller HTTP/1.1" 200 19401
+0:0:0:0:0:0:0:1 - - [18/Nov/2019:15:22:48 +0800] "GET /swagger1demo/demo/index2?url=www HTTP/1.1" 200 5

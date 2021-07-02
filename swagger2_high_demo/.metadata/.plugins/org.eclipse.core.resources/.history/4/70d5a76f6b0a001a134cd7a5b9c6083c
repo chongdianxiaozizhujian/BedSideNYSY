@@ -1,0 +1,58 @@
+package com.springdemo.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiKeyAuthDefinition;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.AuthorizationScope;
+
+@Controller
+@RequestMapping("/demo")
+public class DemoController {
+	@ResponseBody
+    @RequestMapping("/index")
+	@ApiOperation(value="index...", httpMethod="POST", notes="demo2 index...")
+	@ApiImplicitParam(name="lala", value="haha", dataType="String", required=true, paramType="apiKey")
+    public String index(HttpServletRequest request){
+		String header = request.getHeader("x-access-token");
+		String authorization = request.getHeader("Authorization");
+		System.out.println(header);
+		System.out.println(authorization);
+		System.out.println("demo");
+        return "demo";
+    }
+	
+	@ResponseBody
+    @RequestMapping("/index2")
+	@ApiOperation(value="获取url", httpMethod="POST", notes="获取url...")
+    public String index2(HttpServletRequest request, @ApiParam(required=true, name="url", value="请求路径") @RequestParam(value="url") String url){
+		String header = request.getHeader("x-access-token");
+		System.out.println(header);
+		String authorization = request.getHeader("Authorization");
+		System.out.println(authorization);
+		System.out.println("demo2");
+        return "demo2";
+    }
+	
+	@ResponseBody
+	@RequestMapping("/hello")
+    @ApiOperation("hello入口")
+    public String hello() {
+        return "hello ";
+    }
+
+	@ResponseBody
+	@RequestMapping("/hello1")
+    @ApiOperation(value = "auth hello1接口", authorizations = {value="basicAuth"})
+    public String hello1(){
+        return "hello1 ";
+    }
+	
+}

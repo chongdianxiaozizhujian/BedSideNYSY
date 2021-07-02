@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Nov 19 09:44:46 CST 2019
+http\://maven.aliyun.com/nexus/content/groups/public/.error=Could not transfer artifact com.google.guava\:guava\:jar\:sources\:18.0 from/to alimaven (http\://maven.aliyun.com/nexus/content/groups/public/)\: connect timed out
+@default-alimaven-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1574127886463
